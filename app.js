@@ -219,7 +219,3 @@ function changeView(button) {
     
 }
 
-/*
-
-TODO NEXT 
-- SORT OUT THE LOADING FROM LOCAL STORAGE WHEN ITS EMPTY 
