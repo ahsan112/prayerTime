@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="now">
+            <h1 id="nextPrayer"></h1>
+            <h1 id="nextPrayerTime"></h1>
+        </div>
+        <!-- <br>
+        <br>
+        <br> -->
+    </div>
+
+    <div class="settings">
+        <div class="fajr">
+            <p>Fajr</p>
+            <input type="time" id="fajr_time">
+            <h1 id="fajr-remaining"></h1>
+        </div>
+    
+        <div class="zohr">
+            <p>Zohr</p> 
+            <input type="time" id="zohr_time">
+            <h1 id="zohr-remaining"></h1>
+        </div>
+        
+        <div class="asr">
+           <p>Asr</p> 
+            <input type="time" id="asr_time">
+            <h1 id="asr-remaining"></h1>
+        </div>
+        
+        <div class="magrib">
+           <p>Magrib</p> 
+            <input type="time" id="magrib_time">
+            <h1 id="magrib-remaining"></h1>
+        </div>
+        
+        <div class="isha">
+           <p>Isha</p> 
+            <input type="time" id="isha_time">
+            <h1 id="isha-remaining"></h1>
+        </div>
+        <br>
+        <div class="save">
+            <button id="calc">Save</button>
+        </div>
+        <br>
+        <br>
+    </div>
+    
+    <div class="tabbar">
+        <button class="tablink" onclick="changeView(this.id)" id="mainView">Main</button>
+        <button class="tablink" onclick="changeView(this.id)" id="settings">Settings</button>
+    </div>
+    
+
+
+    <script src="prayerTime.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

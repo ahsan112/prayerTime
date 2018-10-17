@@ -1,0 +1,177 @@
+body {
+    background-color: #000;
+    color: #ea9b5a;
+    /* color: #ffe5db; */
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 48px;
+    line-height: 1.08365;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+.now {
+    margin-top: 30%;
+}
+
+/* @media only screen and (min-width: 320px) {
+    #nextPrayer {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    #nextPrayerTime {
+        text-align: center;
+        font-size: 3.3rem;
+    }
+
+}
+@media only screen and (min-width: 375px) {
+    #nextPrayer {
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    #nextPrayerTime {
+        text-align: center;
+        font-size: 3.9rem;
+    }
+
+} */
+
+@media only screen and (max-width: 768px) {
+    #nextPrayer {
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    #nextPrayerTime {
+        text-align: center;
+        font-size: 3.9rem;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    #nextPrayer {
+        text-align: center;
+        font-size: 9.5rem;
+        margin-top: 15%
+    }
+    #nextPrayerTime {
+        text-align: center;
+        font-size: 7.9rem;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    #nextPrayer {
+        text-align: center;
+        font-size: 9.5rem;
+        margin-top: 5%;
+    }
+    #nextPrayerTime {
+        text-align: center;
+        font-size: 7.9rem;
+    }
+
+}
+
+
+
+/* FOR THE TAB BAR  */
+.settings {
+    display: none;
+}
+
+.tablink {
+    background-color: #ea9b5a;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.tabbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* FOR THE SETTINGS PAGE */
+
+.settings div {
+    border-bottom: 1px solid;
+}
+
+input {
+    float: right;
+    height: 50px;
+    width: 30%;
+    margin-top: 22%;
+    cursor: pointer;
+    font-size: 0.3em;
+}
+
+p {
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+h1 {
+    font-size: 0.7em;
+    margin-top: 0;
+}
+
+.save {
+    text-align: center;
+    border: none !important;
+}
+
+.save button {
+    background-color: #ea9b5a;
+    color: #000;
+    font-size: 0.5em;
+    width: 50%;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* for the responsiveness */
+@media only screen and (min-width: 426px) {
+    .settings {
+        max-width: 75%;
+        margin: auto;
+    }
+    input {
+        margin-top: 10%;
+        font-size: 0.5em;
+    }
+    .now {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    input {
+        margin-top: 5%;
+    }
+}
