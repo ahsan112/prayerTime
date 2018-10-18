@@ -2,7 +2,7 @@
 // ========== function to run on load displaying the next prayer time ================== //
 
 function run() {
-
+    
     var currentDate = new Date();
     
     var nextPrayer = prayerTimeApi.getNextPrayer();
@@ -219,3 +219,5 @@ function changeView(button) {
     
 }
 
+
+Notification.requestPermission();
